@@ -1,0 +1,41 @@
+#canvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#text {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#text {
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 8vmin;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+#text h1 {
+  opacity: 0.9;
+}
